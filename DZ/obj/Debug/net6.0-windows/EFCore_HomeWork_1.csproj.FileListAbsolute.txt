@@ -1,0 +1,106 @@
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\obj\Debug\net6.0-windows\EFCore_HomeWork_1.csproj.AssemblyReference.cache
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\obj\Debug\net6.0-windows\App.g.cs
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\obj\Debug\net6.0-windows\EFCore_HomeWork_1_MarkupCompile.cache
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\obj\Debug\net6.0-windows\EFCore_HomeWork_1_MarkupCompile.lref
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\EFCore_HomeWork_1.exe
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\EFCore_HomeWork_1.deps.json
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\EFCore_HomeWork_1.runtimeconfig.json
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\EFCore_HomeWork_1.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\ref\EFCore_HomeWork_1.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\EFCore_HomeWork_1.pdb
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\obj\Debug\net6.0-windows\MainWindow.baml
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\obj\Debug\net6.0-windows\EFCore_HomeWork_1.g.resources
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\obj\Debug\net6.0-windows\EFCore_HomeWork_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\obj\Debug\net6.0-windows\EFCore_HomeWork_1.AssemblyInfoInputs.cache
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\obj\Debug\net6.0-windows\EFCore_HomeWork_1.AssemblyInfo.cs
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\obj\Debug\net6.0-windows\EFCore_HomeWork_1.csproj.CoreCompileInputs.cache
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\obj\Debug\net6.0-windows\EFCore_HomeWork_1.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\obj\Debug\net6.0-windows\ref\EFCore_HomeWork_1.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\obj\Debug\net6.0-windows\EFCore_HomeWork_1.pdb
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\obj\Debug\net6.0-windows\EFCore_HomeWork_1.genruntimeconfig.cache
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Humanizer.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\!Kamran\ADO.NET & Entity Framework\EFCore_HomeWork_1\obj\Debug\net6.0-windows\EFCore_HomeWork_1.csproj.CopyComplete
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\EFCore_HomeWork_1.exe
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\EFCore_HomeWork_1.deps.json
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\EFCore_HomeWork_1.runtimeconfig.json
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\EFCore_HomeWork_1.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\EFCore_HomeWork_1.pdb
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Humanizer.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Orion\source\repos\DZ\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Orion\source\repos\DZ\obj\Debug\net6.0-windows\EFCore_HomeWork_1.csproj.AssemblyReference.cache
+C:\Users\Orion\source\repos\DZ\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Orion\source\repos\DZ\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Orion\source\repos\DZ\obj\Debug\net6.0-windows\EFCore_HomeWork_1_MarkupCompile.cache
+C:\Users\Orion\source\repos\DZ\obj\Debug\net6.0-windows\EFCore_HomeWork_1_MarkupCompile.lref
+C:\Users\Orion\source\repos\DZ\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Orion\source\repos\DZ\obj\Debug\net6.0-windows\EFCore_HomeWork_1.g.resources
+C:\Users\Orion\source\repos\DZ\obj\Debug\net6.0-windows\EFCore_HomeWork_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Orion\source\repos\DZ\obj\Debug\net6.0-windows\EFCore_HomeWork_1.AssemblyInfoInputs.cache
+C:\Users\Orion\source\repos\DZ\obj\Debug\net6.0-windows\EFCore_HomeWork_1.AssemblyInfo.cs
+C:\Users\Orion\source\repos\DZ\obj\Debug\net6.0-windows\EFCore_HomeWork_1.csproj.CoreCompileInputs.cache
+C:\Users\Orion\source\repos\DZ\obj\Debug\net6.0-windows\EFCore_HomeWork_1.csproj.CopyComplete
+C:\Users\Orion\source\repos\DZ\obj\Debug\net6.0-windows\EFCore_HomeWork_1.dll
+C:\Users\Orion\source\repos\DZ\obj\Debug\net6.0-windows\refint\EFCore_HomeWork_1.dll
+C:\Users\Orion\source\repos\DZ\obj\Debug\net6.0-windows\EFCore_HomeWork_1.pdb
+C:\Users\Orion\source\repos\DZ\obj\Debug\net6.0-windows\EFCore_HomeWork_1.genruntimeconfig.cache
+C:\Users\Orion\source\repos\DZ\obj\Debug\net6.0-windows\ref\EFCore_HomeWork_1.dll
