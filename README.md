@@ -13,7 +13,7 @@
 Pull this project
 
 ```command powershell
-git pull https://github.com/Or1onn/LoginPanel.git
+$ git pull https://github.com/Or1onn/LoginPanel.git
 ``` 
 
 Create a json folder in the wwwroot of the project, then in that folder create the appsettings.json file.
