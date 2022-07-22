@@ -12,7 +12,7 @@
 ### How to run project
 Pull this project
 
-```powershell
+```command promt
 git pull https://github.com/Or1onn/LoginPanel.git
 ``` 
 
