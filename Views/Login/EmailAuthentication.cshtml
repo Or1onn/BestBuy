@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "EmailAuthentication";
+}
+
+<h1>Email Authentication</h1>
+
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="~/css/site.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+            <form class="form" id="a-form" method="post" action="/Login/EmailAuthentication">
+                <h2 class="form_title title">Enter Your Authorization Code</h2>
+                <input name="code" style="text-align: center; padding-left: 0px;" id="Code" class="form__input" type="text" placeholder="Code">
+                <input type="submit" value="SUBMIT" class="form__button button" />
+            </form>
+    </div>
+    <script src="~/js/login_panel.js"></script>
+</body>
+</html>
