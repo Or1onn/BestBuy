@@ -11,7 +11,7 @@
 ### ⦁ *SMTP system*
 ### ⦁ *Authentication email*
 ### ⦁ *Change password with email authentication*
-### ⦁ *Beautiful HTML design (Designed by: SELECTO)*
+### ⦁ *Beautiful HTML design*
 ### ⦁ *Animations* 
 
 ### How to run project
