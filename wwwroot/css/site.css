@@ -1,4 +1,4 @@
-*,
+/**,
 *::after,
 *::before {
     margin: 0;
@@ -6,7 +6,7 @@
     box-sizing: border-box;
     user-select: none;
 }
-
+*/
 /* Generic */
 body {
     width: 100%;

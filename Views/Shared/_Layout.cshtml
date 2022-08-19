@@ -1,37 +1,44 @@
-﻿<head>
+﻿<!DOCTYPE html>
+<html>
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - LoginPanel</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/main_page.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/LoginPanel.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/BestBuy.styles.css" asp-append-version="true" />
+    <link rel="shortcut icon" type="image/x-icon" href="/images/logo.ico" />
 </head>
 <body>
     <header>
         <div class="desktop-header-top">
-            <div class="header-main div-css">
-                <form method="post">
-                    <input class="search-input" placeholder="Search" type="text" />
-                </form>
+            <div class="header-main">
+                <div class="content-header">
+                    <img class="logo" src="/images/logo.png" />
+                    <div class="header-main-form">
+                        <form class="form" method="post">
+                            <input class="search-input" placeholder="Search" type="search" />
+                        </form>
+                    </div>
+                    <div class="pull-right">
+                        <button class="add-button">
+                            <div class="add-icon" />
+                            Add products
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
 
-    <main role="main" class="pb-3">
-        @RenderBody()
-    </main>
-
+    @RenderBody()
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="/js/login_panel.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 
+</html>
 
-@*    <footer class="footer">
-        <div class="bottom-container">
-            <img src="/images/logo.png" class="img-fluid" />
-            &copy; 2022 - LoginPanel - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>*@
+

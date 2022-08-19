@@ -10265,9 +10265,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Orion\\source\\repos\\ASP.NET Project\\LoginPanel\\LoginPanel.csproj",
-      "projectName": "LoginPanel",
-      "projectPath": "C:\\Users\\Orion\\source\\repos\\ASP.NET Project\\LoginPanel\\LoginPanel.csproj",
+      "projectUniqueName": "C:\\Users\\Orion\\source\\repos\\ASP.NET Project\\LoginPanel\\BestBuy.csproj",
+      "projectName": "BestBuy",
+      "projectPath": "C:\\Users\\Orion\\source\\repos\\ASP.NET Project\\LoginPanel\\BestBuy.csproj",
       "packagesPath": "C:\\Users\\Orion\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Orion\\source\\repos\\ASP.NET Project\\LoginPanel\\obj\\",
       "projectStyle": "PackageReference",

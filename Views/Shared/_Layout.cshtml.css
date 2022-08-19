@@ -1,17 +1,7 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-
-a.navbar-brand {
-    white-space: normal;
-    text-align: center;
-    word-break: break-all;
+﻿.abc{
+    min-width: 100%;
+    min-height: 100%;
 }
-
-a {
-    color: #0077cc;
-}
-
 .btn-primary {
     color: #fff;
     background-color: #1b6ec2;
@@ -42,14 +32,47 @@ button.accept-policy {
     line-height: inherit;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 0px;
-    width: 100%;
-    white-space: nowrap;
-    line-height: 60px;
+.logo {
+    color: transparent;
+    /*font: 0/0 a;*/
+    text-shadow: none;
+    display: inline-table;
+    vertical-align: top;
+    width: 95px;
+    height: auto;
+    background-position: center left;
+    background-repeat: no-repeat;
 }
+
+.content-header {
+    display: flex;
+    margin: 0 auto;
+    width: 950px;
+}
+
+div{
+    display: block;
+}
+
+.header-main {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #4b70e2;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    height: 80px;
+}
+
+.desktop-header-top {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 100%;
+    height: 23px;
+}
+
 
 .bottom-container {
     position: absolute;
@@ -59,7 +82,83 @@ button.accept-policy {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
     padding: 50px;
+    bottom: 0;
     background-color: black;
+}
+
+
+html, body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    min-height: 100%;
+}
+
+.header-main-form {
+    margin-left: 15px;
+    width: 100%;
+    display: flex;
+}
+
+.form {
+    width: 50%;
+    right: 10px;
+}
+
+.pull-right{
+    float: right;
+}
+
+.footer-container {
+    min-width: 100%;
+    background-color: black;
+}
+
+.search-input {
+    max-width: 100%;
+    min-width: 80%;
+    height: 40px;
+    margin: 4px 0;
+    padding-left: 25px;
+    font-size: 13px;
+    margin-left: 15px;
+    letter-spacing: 0.15px;
+    border: none;
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+    background-color: #ecf0f3;
+    transition: 0.25s ease;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
+}
+
+    .search-input:focus {
+        box-shadow: inset 4px 4px 4px #d1d9e6, inset -4px -4px 4px #f9f9f9;
+    }
+
+.add-button {
+    vertical-align: central;
+    min-width: 180px;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1.15px;
+    text-align: center;
+    background: linear-gradient(70.56deg, #11998E, #38EF7D);
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    border: none;
+    outline: none;
+}
+
+.add-icon {
+    min-height: max-content;
+    min-width: max-content;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    background-image: url(/images/plus-circle.svg);
 }

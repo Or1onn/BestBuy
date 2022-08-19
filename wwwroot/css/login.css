@@ -7,6 +7,10 @@
     user-select: none;
 }
 
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+
 /* Generic */
 body {
     width: 100%;

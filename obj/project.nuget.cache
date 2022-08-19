@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PUkQoGlmCfiY2hyAIrZ9u+wjM+WdOoAUNew7eGsVYZID/Qxz6szWGJtRTjIK7Q30Mn8RGpLyqnWo76X52s4uYA==",
+  "dgSpecHash": "P85DqR6IGBWl1Kjqsg02iixbcPNfelTdWObFaNozyQLBWREICESjvinAVsM/YyVLH7gXQP7H/kpbHQgSbgAi5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Orion\\source\\repos\\ASP.NET Project\\LoginPanel\\LoginPanel.csproj",
+  "projectFilePath": "C:\\Users\\Orion\\source\\repos\\ASP.NET Project\\LoginPanel\\BestBuy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Orion\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Orion\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
