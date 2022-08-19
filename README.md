@@ -11,7 +11,7 @@
 ### ⦁ *SMTP system*
 ### ⦁ *Authentication email*
 ### ⦁ *Change password with email authentication*
-### ⦁ *Beautiful HTML design (Designed by: SELECTO)*
+### ⦁ *Beautiful HTML design*
 ### ⦁ *Animations* 
 
 ### How to run project
@@ -35,5 +35,5 @@ git clone https://github.com/Or1onn/LoginPanel.git
 
 ### Ready! you can start the project
 
-[Example of project](http://or1onn-001-site1.ctempurl.com/)
+[Example of project](http://or1onn-001-site1.ctempurl.com/)(Obsolete)
 
