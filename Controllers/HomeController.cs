@@ -17,5 +17,12 @@ namespace LoginPanel.Controllers
         {
             return View("HomeWindow");
         }
+
+
+        public ActionResult ProductAddingPage()
+        {
+            return View("CreateProduct");
+        }
+        
     }
 }

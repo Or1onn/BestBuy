@@ -1,0 +1,17 @@
+﻿.product-container {
+    padding: 0;
+    height: auto;
+    min-height: calc(100% - 740px);
+    justify-content: center;
+    /*padding: 20px;*/
+}
+
+.product-labels {
+    padding-left: 20px;
+    display: block;
+    float: left;
+    width: 215px;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}

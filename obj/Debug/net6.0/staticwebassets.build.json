@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WXtfomiC4qYF2zfH3rOsKTAgmG51xLtgWnDR5HNX95w=",
+  "Hash": "GWHZzo9uy6J8oYxIjFwRssGWEKyf++3ZW7mPvXckb9E=",
   "Source": "BestBuy",
   "BasePath": "_content/BestBuy",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Orion\\source\\repos\\ASP.NET Project\\LoginPanel\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BestBuy.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Orion\\source\\repos\\ASP.NET Project\\LoginPanel\\wwwroot\\css\\adding_product.css",
+      "SourceId": "BestBuy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Orion\\source\\repos\\ASP.NET Project\\LoginPanel\\wwwroot\\",
+      "BasePath": "_content/BestBuy",
+      "RelativePath": "css/adding_product.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\adding_product.css"
     },
     {
       "Identity": "C:\\Users\\Orion\\source\\repos\\ASP.NET Project\\LoginPanel\\wwwroot\\css\\login.css",

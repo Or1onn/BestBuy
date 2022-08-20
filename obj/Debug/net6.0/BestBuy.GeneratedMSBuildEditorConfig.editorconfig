@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Orion\source\repos\ASP.NET Project\LoginPanel
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Orion/source/repos/ASP.NET Project/LoginPanel/Views/Home/CreateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Orion/source/repos/ASP.NET Project/LoginPanel/Views/Home/HomeWindow.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lV2luZG93LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

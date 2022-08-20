@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+a {
+    color: #fff !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .content {
     padding: 0;
     height: auto;
@@ -11,15 +17,6 @@
 div {
     display: block;
 }
-/*html, body {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    height: 100px;
-    padding: 0;
-    height: auto;
-    min-height: calc(100% - 740px);
-}*/
 
 .container, .container-sm {
     min-width: 100%;
@@ -29,16 +26,6 @@ body {
     min-height: 100%;
     background-color: #f8f9fd;
 }
-
-
-/*html, body {
-    margin: 0;
-    padding: 0;
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    background-color: #f8f9fd;
-}*/
 
 section {
     display: block;
@@ -410,8 +397,20 @@ div {
         box-shadow: inset 4px 4px 4px #d1d9e6, inset -4px -4px 4px #f9f9f9;
     }
 
-.add-button {
+.add-icon {
+    min-height: max-content;
+    min-width: max-content;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-image: url(/images/plus-circle.svg);
+    margin: 5px -5px 0 10%;
+}
+
+.add-button{
+    display: block;
+    padding: 10px;
     vertical-align: central;
+    text-decoration: none;
     min-width: 180px;
     height: 50px;
     border-radius: 8px;
@@ -424,13 +423,4 @@ div {
     font-family: Helvetica, Arial, sans-serif;
     border: none;
     outline: none;
-}
-
-.add-icon {
-    min-height: max-content;
-    min-width: max-content;
-    background-size: 20px 20px;
-    background-repeat: no-repeat;
-    margin-left: 10%;
-    background-image: url(/images/plus-circle.svg);
 }
