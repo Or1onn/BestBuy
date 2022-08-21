@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Orion\\source\\repos\\ASP.NET Project\\LoginPanel\\BestBuy.csproj": {}
+    "C:\\Users\\Orion\\source\\repos\\ASP.NET Project\\BestBuy\\BestBuy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Orion\\source\\repos\\ASP.NET Project\\LoginPanel\\BestBuy.csproj": {
+    "C:\\Users\\Orion\\source\\repos\\ASP.NET Project\\BestBuy\\BestBuy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Orion\\source\\repos\\ASP.NET Project\\LoginPanel\\BestBuy.csproj",
+        "projectUniqueName": "C:\\Users\\Orion\\source\\repos\\ASP.NET Project\\BestBuy\\BestBuy.csproj",
         "projectName": "BestBuy",
-        "projectPath": "C:\\Users\\Orion\\source\\repos\\ASP.NET Project\\LoginPanel\\BestBuy.csproj",
+        "projectPath": "C:\\Users\\Orion\\source\\repos\\ASP.NET Project\\BestBuy\\BestBuy.csproj",
         "packagesPath": "C:\\Users\\Orion\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Orion\\source\\repos\\ASP.NET Project\\LoginPanel\\obj\\",
+        "outputPath": "C:\\Users\\Orion\\source\\repos\\ASP.NET Project\\BestBuy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,21 +47,21 @@
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[6.0.7, )"
+              "version": "[6.0.8, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.7, )"
+              "version": "[6.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.7, )"
+              "version": "[6.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.7, )"
+              "version": "[6.0.8, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",

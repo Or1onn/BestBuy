@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using LoginPanel.Models;
-namespace LoginPanel
+
+namespace BestBuy.Contexts
 {
     public partial class UsersDBContext : DbContext
     {

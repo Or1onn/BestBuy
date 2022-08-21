@@ -27,7 +27,7 @@ namespace LoginPanel
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Create}/{id?}");
+                pattern: "{controller=Home}/{action=ProductAddingPage}/{id?}");
 
 
             app.Run();

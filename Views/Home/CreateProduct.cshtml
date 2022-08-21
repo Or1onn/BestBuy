@@ -4,58 +4,74 @@
     Layout = null;
 }
 
+
 <!DOCTYPE html>
 
 <html>
-<head>
+<header>
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="~/css/main_page.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/adding_product.css" asp-append-version="true" />
-
-    <title>View</title>
-</head>
+    <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
+    <title>Adding Product</title>
+    @*    <div class="desktop-header-top">
+    <label>BEST_BUY</label>
+    <div class="header-main">
+    <div class="content-header">
+    <img class="logo" src="/images/logo.png">
+    <div class="header-main-form">
+    <form class="form" method="post">
+    <input class="search-input" placeholder="Search" type="search">
+    </form>
+    </div>
+    <div class="pull-right">
+    <a class="add-button" asp-action="ProductAddingPage">
+    <div class="add-icon">
+    Add products
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>*@
+</header>
 <body>
-
-
-    <h4>ProductsModel</h4>
-    <hr />
-    <div class="product-container">
-            <form asp-action="View">
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="form-group">
-                    <label asp-for="Name" class="product-labels"></label>
-                    <input asp-for="Name" class="form-control" />
-                    <span asp-validation-for="Name" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Category" class="product-labels"></label>
-                    <input asp-for="Category" class="form-control" />
-                    <span asp-validation-for="Category" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Price" class="product-labels"></label>
-                    <input asp-for="Price" class="form-control" />
-                    <span asp-validation-for="Price" class="text-danger"></span>
-                </div>
-            <div class="form-group">
-                <label asp-for="Description" class="product-labels"></label>
-                <input asp-for="Description" class="form-control"/>
-                <span asp-validation-for="Description" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Image" class="product-labels"></label>
-                <input asp-for="Image" class="form-control" />
-                <span asp-validation-for="Image" class="text-danger"></span>
-            </div>
-                <div class="form-group">
-                    <input type="submit" value="Create" class="btn btn-primary" />
-                </div>
+    <div class="content">
+        <div class="l-centre">
+            <form action='' class='form'>
+                <p class='field half'>
+                    <label class='label' for='select'>Category</label>
+                    <select asp-items="Html.GetEnumSelectList<BestBuy.Models.ProductsCategory>()" class='select' id='select'></select>
+                </p>
+                <p class='field half'>
+                    <label class='label' for='select'>Country</label>
+                    <select asp-items="Html.GetEnumSelectList<BestBuy.Models.County>()" class='select' id='select'></select>
+                </p>
+                <p class='field half required'>
+                    <label class='label' for='Price'>Price</label>
+                    <input class='text-input' id='Price' required name='Price' max="1000000" type='number'>
+                </p>
+                <p class='field'>
+                    <label class='label' for='about'>About</label>
+                    <textarea class='textarea' cols='50' id='about' name='about' rows='4'></textarea>
+                </p>
+                <p class='field half'>
+                    <input class='button' type='submit' value='Create'>
+                </p>
             </form>
+            <p class='field'>
+                <form action="/Home/SaveUploadedFile" method="post" id="imageForm" class="dropzone">
+                    <div class="fallback">
+                        <input name="file" type="file" multiple />
+                    </div>
+                        <input class='button' type='submit' value='Create'>
+                </form>
+            </p>
+        </div>
     </div>
-
-    <div>
-        <a asp-action="Index">Back to List</a>
-    </div>
-
 </body>
+<script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
+<script src="~/js/upload_image.js"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/_framework/aspnetcore-browser-refresh.js"></script>
 </html>
