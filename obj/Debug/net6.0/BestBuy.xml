@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BestBuy</name>
+    </assembly>
+    <members>
+        <member name="M:LoginPanel.Controllers.LoginController.SendAuthenticationEmail(System.String)">
+             <summary>
+             Email Authentication Email
+             </summary>
+             <remarks>
+             Note: to create account you need to enter Authentication code which you can receive from method SendAuthenticationEmail
+             
+             Sample request:
+            
+                 POST /EmailAuthentication
+                 {
+                    "Login": "Jone",
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:LoginPanel.Controllers.LoginController.Login(LoginPanel.Models.UsersModel)">
+             <summary>
+             Login in Account
+             </summary>
+             <param name="model"></param>
+             <returns></returns>
+             <remarks>
+             Sample request:
+            
+                 POST /Login
+                 {
+                    "Login": "James",
+                    "Password": "qwerty123",
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:LoginPanel.Controllers.LoginController.CreateAccount(System.String)">
+             <summary>
+             Create New Account
+             </summary>
+             <remarks>
+             Note: to create account you need to enter Authentication code which you can receive from method SendAuthenticationEmail
+             
+             Sample request:
+            
+                 POST /CreateAccount
+                 {
+                    "Code": "B9A1I1",
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:LoginPanel.Controllers.LoginController.Authentication(System.String)">
+             <summary>
+             Authentication
+             </summary>
+             <remarks>
+             Note: to create account you need to enter Authentication code which you can receive from method SendAuthenticationEmail
+             
+             Sample request:
+            
+                 POST /Authentication
+                 {
+                    "Code": "B9A1I1",
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:LoginPanel.Controllers.LoginController.EmailAuthentication(System.String)">
+             <summary>
+             Email Authentication
+             </summary>
+             <remarks>
+             Note: to create account you need to enter Authentication code which you can receive from method SendAuthenticationEmail
+             
+             Sample request:
+            
+                 POST /EmailAuthentication
+                 {
+                    "Code": "B9A1I1",
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:LoginPanel.Controllers.LoginController.CreateNewPassword(System.String)">
+            <summary>
+            Creating New Password
+            </summary>
+            <remarks>
+            Note: To Create new password you need to receive Authentication from you gmail
+            </remarks>
+        </member>
+    </members>
+</doc>

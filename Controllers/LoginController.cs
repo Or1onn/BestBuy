@@ -3,6 +3,7 @@ using LoginPanel.Models;
 using System.IdentityModel.Tokens.Jwt;
 using LoginPanel.Services;
 using BestBuy.Contexts;
+using Microsoft.EntityFrameworkCore;
 
 namespace LoginPanel.Controllers
 {
@@ -20,8 +21,23 @@ namespace LoginPanel.Controllers
             return View();
         }
 
-        // GET: HomeController/Details/5
-        [HttpPost]
+        /// <summary>
+        /// Email Authentication Email
+        /// </summary>
+        /// <remarks>
+        /// Note: to create account you need to enter Authentication code which you can receive from method SendAuthenticationEmail
+        /// 
+        /// Sample request:
+        ///
+        ///     POST /EmailAuthentication
+        ///     {
+        ///        "Login": "Jone",
+        ///     }
+        ///
+        /// </remarks>
+        [HttpPost("/Login/SendAuthenticationEmail")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult> SendAuthenticationEmail(string Login)
         {
             if (Login != null)
@@ -81,9 +97,24 @@ namespace LoginPanel.Controllers
             }
         }
 
-        [HttpPost]
-        [ActionName("Login")]
-
+        /// <summary>
+        /// Login in Account
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        /// <remarks>
+        /// Sample request:
+        ///
+        ///     POST /Login
+        ///     {
+        ///        "Login": "James",
+        ///        "Password": "qwerty123",
+        ///     }
+        ///
+        /// </remarks>
+        [HttpPost("/Login/Login")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public ActionResult Login(UsersModel model)
         {
             foreach (var item in db!.Users)
@@ -100,8 +131,24 @@ namespace LoginPanel.Controllers
             return View("ErrorView");
         }
 
-        [HttpPost]
-        [ActionName("CreateAccount")]
+
+        /// <summary>
+        /// Create New Account
+        /// </summary>
+        /// <remarks>
+        /// Note: to create account you need to enter Authentication code which you can receive from method SendAuthenticationEmail
+        /// 
+        /// Sample request:
+        ///
+        ///     POST /CreateAccount
+        ///     {
+        ///        "Code": "B9A1I1",
+        ///     }
+        ///
+        /// </remarks>
+        [HttpPost("/Login/CreateAccount")]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult> CreateAccount(string code)
         {
             var handler = new JwtSecurityTokenHandler();
@@ -132,8 +179,23 @@ namespace LoginPanel.Controllers
             }
         }
 
-        [HttpPost]
-        [ActionName("Authentication")]
+        /// <summary>
+        /// Authentication
+        /// </summary>
+        /// <remarks>
+        /// Note: to create account you need to enter Authentication code which you can receive from method SendAuthenticationEmail
+        /// 
+        /// Sample request:
+        ///
+        ///     POST /Authentication
+        ///     {
+        ///        "Code": "B9A1I1",
+        ///     }
+        ///
+        /// </remarks>
+        [HttpPost("/Login/Authentication")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult> Authentication(string code)
         {
             var handler = new JwtSecurityTokenHandler();
@@ -163,8 +225,25 @@ namespace LoginPanel.Controllers
             }
         }
 
-        [HttpPost]
-        [ActionName("EmailAuthentication")]
+
+
+        /// <summary>
+        /// Email Authentication
+        /// </summary>
+        /// <remarks>
+        /// Note: to create account you need to enter Authentication code which you can receive from method SendAuthenticationEmail
+        /// 
+        /// Sample request:
+        ///
+        ///     POST /EmailAuthentication
+        ///     {
+        ///        "Code": "B9A1I1",
+        ///     }
+        ///
+        /// </remarks>
+        [HttpPost("/Login/EmailAuthentication")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public ActionResult EmailAuthentication(string code)
         {
             var handler = new JwtSecurityTokenHandler();
@@ -182,8 +261,15 @@ namespace LoginPanel.Controllers
             }
         }
 
-        [HttpPost]
-        [ActionName("CreateNewPassword")]
+        /// <summary>
+        /// Creating New Password
+        /// </summary>
+        /// <remarks>
+        /// Note: To Create new password you need to receive Authentication from you gmail
+        /// </remarks>
+        [HttpPost("/Login/CreateNewPassword")]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult> CreateNewPassword(string Password)
         {
             if (Password != null)

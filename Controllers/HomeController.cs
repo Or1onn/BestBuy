@@ -39,35 +39,26 @@ namespace LoginPanel.Controllers
         [HttpPost("/Home/SaveUploadedFile")]
         public async Task<IActionResult> SaveUploadedFile([FromForm] IList<IFormFile> files)
         {
-            try
+            string absolutepath = _appEnvironment.WebRootPath;
+            Path.Combine(absolutepath, "Files");
+            foreach (var file in files)
             {
-                string absolutepath = _appEnvironment.WebRootPath;
-                Path.Combine(absolutepath, "Files");
-                foreach (var file in files)
+                try
                 {
-                    try
+                    var uploads = Path.Combine(absolutepath, file.FileName);
+                    using (var fileStream = new FileStream(uploads, FileMode.Create))
                     {
-                        var uploads = Path.Combine(absolutepath, file.FileName);
-                        using (var fileStream = new FileStream(uploads, FileMode.Create))
-                        {
-                            await file.CopyToAsync(fileStream);
-                        }
+                        await file.CopyToAsync(fileStream);
+                    }
 
-                    }
-                    catch (Exception ex)
-                    {
-                        return BadRequest(ex.Message);
-                    }
                 }
-                return RedirectToAction("ProductAddingPage");
+                catch (Exception ex)
+                {
+                    return BadRequest(ex.Message);
+                }
+            }
+            return RedirectToAction("ProductAddingPage");
 
-            }
-            catch (Exception exception)
-            {
-                //  return BadRequest(new { success = false, message = "Error file failed to upload" });
-                return BadRequest(exception.Message);
-            }
         }
-
     }
 }

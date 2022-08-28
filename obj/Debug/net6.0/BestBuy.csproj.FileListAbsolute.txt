@@ -522,3 +522,10 @@ C:\Users\Orion\source\repos\ASP.NET Project\BestBuy\obj\Debug\net6.0\refint\Best
 C:\Users\Orion\source\repos\ASP.NET Project\BestBuy\obj\Debug\net6.0\BestBuy.pdb
 C:\Users\Orion\source\repos\ASP.NET Project\BestBuy\obj\Debug\net6.0\BestBuy.genruntimeconfig.cache
 C:\Users\Orion\source\repos\ASP.NET Project\BestBuy\obj\Debug\net6.0\ref\BestBuy.dll
+C:\Users\Orion\source\repos\ASP.NET Project\BestBuy\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Orion\source\repos\ASP.NET Project\BestBuy\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Orion\source\repos\ASP.NET Project\BestBuy\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Orion\source\repos\ASP.NET Project\BestBuy\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Orion\source\repos\ASP.NET Project\BestBuy\obj\Debug\net6.0\BestBuy.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Orion\source\repos\ASP.NET Project\BestBuy\bin\Debug\net6.0\BestBuy.xml
+C:\Users\Orion\source\repos\ASP.NET Project\BestBuy\obj\Debug\net6.0\BestBuy.xml
