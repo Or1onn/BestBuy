@@ -36,5 +36,5 @@ git clone https://github.com/Or1onn/LoginPanel.git
 
 ### Ready! you can start the project
 
-[Example of project](http://or1onn-001-site1.ctempurl.com/Login)(Obsolete)
+[Example of project](http://or1onn-001-site1.ctempurl.com/Login)
 
