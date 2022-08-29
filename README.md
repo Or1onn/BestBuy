@@ -12,6 +12,7 @@
 ### ⦁ *Authentication email*
 ### ⦁ *Change password with email authentication*
 ### ⦁ *Beautiful HTML design*
+### ⦁ *İntegrated Swagger(Open API)* 
 ### ⦁ *Animations* 
 
 ### How to run project
